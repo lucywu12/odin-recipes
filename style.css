@@ -1,12 +1,16 @@
 img {
     width: 300px;
     height: auto;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid rgb(63, 0, 152);
 }
 
 h1 {
     font-family: "Tahoma", "Verdana", "sans-serif";
-    background-color: lightgreen;
+    background-color: rgb(190, 255, 190);
     color: rgb(2, 54, 0);
+    padding: 20px 40px;
 }
 
 h1.recipe {
@@ -19,9 +23,19 @@ h3 {
     font-family: "Tahoma", "Verdana", "sans-serif";
     background-color: lightyellow;
     color: darkgoldenrod;
+    padding: 5px;
+    border: 2px solid rgb(164, 115, 24);
 }
 
 p, li {
     font-family: "Georgia", "Garamond", "serif";
     font-size: 18px;
+    border: 2px;
+}
+
+.main {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: rgb(234, 208, 248);
 }
