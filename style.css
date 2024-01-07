@@ -1,0 +1,27 @@
+img {
+    width: 300px;
+    height: auto;
+}
+
+h1 {
+    font-family: "Tahoma", "Verdana", "sans-serif";
+    background-color: lightgreen;
+    color: rgb(2, 54, 0);
+}
+
+h1.recipe {
+    background-color:aliceblue;
+    color:darkblue;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Tahoma", "Verdana", "sans-serif";
+    background-color: lightyellow;
+    color: darkgoldenrod;
+}
+
+p, li {
+    font-family: "Georgia", "Garamond", "serif";
+    font-size: 18px;
+}
